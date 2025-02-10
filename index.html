@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="styles/style.css">
-<link rel="stylesheet" href="styles/normalize.css">
 
 <!DOCTYPE html>
 <html lang="ru">
@@ -7,17 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 
 <body>
   <div class="page " >
     <header class="header">
-        <img  class="logo logo_place_header" src="images/logo_plase_header.svg" alt="Яндекс Практикум">
+        <img  class="logo logo_place_header" src="images/logo_place_header.svg" alt="Яндекс Практикум">
         <h1 class="header_title">Научиться учиться</h1> 
             <span class="header_subtitle">
             Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни
-            <a class="header_link">Узнать</a>
+            <a class="header_link" href="#0" >Узнать</a>
             </span>
       <img class="header_main-illustration" src="images/two_again.png" alt="Картинка 'Опять двойка'">
       <div class="header_square-pic"></div>
@@ -28,34 +28,34 @@
     <main class="content">
       <section class="description">
         <div class="two-colums">       
-          <div class="two-colums_bref">Главные проблемы в обучении
-          </div>
+          <h2 class="two-colums_bref">Главные проблемы в обучении
+          </h2>
           <div class="two-colums_main-text " id="grid">        
-             <a class="two-colums_paragraph ">
+             <p class="two-colums_paragraph ">
               Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. 
               Мы готовимся к экзаменам и учим билеты. Мф тренируемся решать однообразные задачи, 
               чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. 
               Зубрежка быстро выветривается и не приносит пользы
-            </a>
+             </p>
             <div>
               <span class="two-colums_span-accent ">
                 Вывод: 
               </span>  
-              <a class="two-colums_paragraph ">Учиться тоже нужно уметь, но почему-то этому мало где учат. 
-                Что с этим делать?  </a>       
-              </a>
+              <p class="two-colums_paragraph ">Учиться тоже нужно уметь, но почему-то этому мало где учат. 
+                Что с этим делать?         
+              </p>
             </div>
-            <a class="two-colums_paragraph">
+            <p class="two-colums_paragraph">
               Конкретные техники и упраждения помогают изменить подход к обучению, сделать его эффективным и захватывающим. 
               Эти же техники применятся на примере обучения в Практикуме.
-            </a>
+            </p>
           </div>
         </div>
       </section>
 
       <section class="digits">
  
-          <h1 class="section-title">Цифры и факты</h1>
+          <h2 class="section-title">Цифры и факты</h2>
           <h3 class="section-subtitle">Про учебу и мозг</h3>
 
         <div class="table " id="digits_grid">
@@ -97,14 +97,14 @@
       </section>
 
       <section class="feynman" >
-        <h1 class="feynman_title">Метод Фейнмана</h1>
+        <h2 class="feynman_title">Метод Фейнмана</h2>
           <h3 class="faynman_subtitle">Выучить и не забыть</h3>
-          <a class="fainman_link">Подробнее</a>
+          <a class="fainman_link" href="#0">Подробнее</a>
       </section>
 
       <section class="kaufman">
         
-        <h1 class="section-title section-title__theme_dark">Принципы обучения</h1>
+        <h2 class="section-title section-title__theme_dark">Принципы обучения</h2>
           <h3 class="section-subtitle section-subtitle__theme_dark">от Джоша Кауфмана</h3>
 
         <div class="table table__theme_dark" id="digits_grid_dark">
@@ -148,31 +148,31 @@
             <h4 class="table_heading table_heading__theme_dark">10</h4>
             <p class="table_text table_text__theme_dark">Уделяйте внимение количеству и скорости</p>
           
-          </div>
           <img class="kaufman_triangle" src="images/kaufman-triangle.svg" alt="синий треугольник">
-        </div>
+
       </section>
     </main>
     <footer class="footer">
         <div class="footer_columns">
           <div class="footer_column__content_copyright">
-            <div class=" logo logo_place_footer" ></div>
-            <h4 class="footer_autor"> &copy Виктор Абанькин</h4>
+            <div class=" logo logo_place_footer" ><img  class="logo logo_place_footer" src="images/logo_place_footer.svg" alt="Яндекс Практикум"></div>
+            <h4 class="footer_autor"> &copy; Виктор Абанькин</h4>
           </div>
+          
           <div class="footer_column__content_info">
             <h4 class="footer_column-heading">О практикуме</h4>
-            <div class="footer_column-links">
-              <a class="footer_column_link">Главная</a>
-              <a class="footer_column_link">Концепция</a>
-              <a class="footer_column_link">Наставники</a>
-            </div>
+            <nav class="footer_column-links">
+              <a class="footer_column_link" href="#0" >Главная</a>
+              <a class="footer_column_link" href="#0" >Концепция</a>
+              <a class="footer_column_link" href="#0" >Наставники</a>
+            </nav>
           </div>
           <div class="footer_column__content_social">
             <h4 class="footer_column-heading">Соцсети</h4>
             <div class="footer_column-links">
-                <a class="footer_column_link"><img class="footer_social_icon" src="images/youtube_color_white.svg" alt="логотип YouTobe">YouTube</a>
-                <a class="footer_column_link"><img class="footer_social_icon" src="images/vk_color_white.svg" alt="логотип Вконтакте">Вконтакте</a>
-                <a class="footer_column_link"><img class="footer_social_icon" src="images/tiktok_color_white.svg" alt="логотип TikTok">TikTok</a>
+                <a class="footer_column_link"><img class="footer_social_icon" href="#0" src="images/youtube_color_white.svg" alt="логотип YouTobe">YouTube</a>
+                <a class="footer_column_link"><img class="footer_social_icon" href="#0" src="images/vk_color_white.svg" alt="логотип Вконтакте">Вконтакте</a>
+                <a class="footer_column_link"><img class="footer_social_icon" href="#0" src="images/tiktok_color_white.svg" alt="логотип TikTok">TikTok</a>
             </div>
           </div>
         </div>
